@@ -13,21 +13,19 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
-      "Avnaaaa?",
-      "Nijamaaaa?",
+      "Avnaaaa? 😳",
+      "Nijamaaaa? 🤨",
       "Dhandam Pedthaaa 🙏?",
-      "Oka Kit-Kat chocolate",
-      "What about Butterscotch ice-cream",
-      "PLEASE EYYYY",
-      "But :*(",
-      "Nen sachipothaa mari",
-      "RIP",
-      "nenu Dhayyam ni ",
-      "please babyyyyyyyy",
-      ":((((",
-      "Oseyyyyyy",
-      "I'm Dead",
-      "No :(",
+      "Oka Kit-Kat chocolate isthaa 😏 ",
+      "What about Butterscotch ice-cream 😋",
+      "PLEASE EYYYY 😭",
+      "Nen sachipothaa mari 😠",
+      "RIP ☠️",
+      "nenu Dhayyam ni 👻",
+      "please babyyyyyyyy 🙏 ",
+      "Oseyyyyyy 🤬",
+      "I'm Dead ⚰️",
+      "Muskoni Yes Nokkuuuu 😤",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
